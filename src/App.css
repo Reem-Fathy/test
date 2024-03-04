@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.cardBrands:hover {
+  box-shadow: 1px 1px 10px #4fa74f;
+}
+.cardBrands {
+  transition: all .5s;
+  border: 1px solid #dee2e6;
+  border-radius: .375rem;
+}
+
+.textSuccess{
+  --bs-text-opacity: 1;
+  color:rgb( 25, 135, 84);
+  font-weight: bold;
+  margin: 13px;
+}
+.btn-outline-main{
+  border: 1px solid var(--bgColor);
+  
+}
+.offline{
+  background-color: #f0f3f2;
+  font-weight: 600;
+  border: 1px solid var(--bgColor);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: var(--shadow);
+  z-index: 999999;
+  padding: 10px 32px;
+}
